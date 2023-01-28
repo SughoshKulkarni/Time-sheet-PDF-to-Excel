@@ -41,7 +41,7 @@ Finally, it saves the cropped image to the given save_path
 
 The cropped image is then read to extract the text. To predict the text, the image is passed to an OCR pre-trained transformer model by Microsoft. 
 
-How to use
+## How to use
 Update the POPPLER_PATH, pdf_file_path, TEMP_TASK with the appropriate values.
 Run the script
 The script will convert the pdf to image, save the image to the IMAGES_FOLDER and then extract text corresponding to the task in TEMP_TASK located in the image.
